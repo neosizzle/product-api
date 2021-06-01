@@ -28,10 +28,16 @@ class ProductController extends Controller
     {
         //validate data
         $data = request()->validate([
-            'name' => 'required',
-            'slug' => 'required',
-            'price' => 'required',
-            'description' =>''
+            'title' => 'required',
+            'slug'=>'',
+            'description' => '',
+            'image'=>'',
+            'images'=>'',
+            'options'=>'',
+            'avgRating'=>'',
+            'ratings'=>'',
+            'price'=>'',
+            'oldPrice' =>''
         ]);
 
 

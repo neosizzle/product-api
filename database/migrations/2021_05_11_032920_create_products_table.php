@@ -17,10 +17,16 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('slug');
-            $table->string('description')->nullable();
-            $table->decimal('price', 5, 2);
+            $table->string('title');
+            $table->string('slug')->nullable();
+            $table->longText('description')->nullable();
+            $table->string('image')->nullable();
+            $table->json('images')->nullable();
+            $table->json('options')->nullable();
+            $table->decimal('avgRating', 5, 2)->nullable();
+            $table->integer('ratings')->nullable();
+            $table->decimal('price', 5, 2)->nullable();
+            $table->decimal('oldPrice', 5, 2)->nullable();
             $table->timestamps();
         });
     }
