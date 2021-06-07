@@ -24,7 +24,7 @@ use PHPUnit\TextUI\XmlConfiguration\Group;
 //custom routes go here
 Route::get('/products',[ProductController::class, 'index'])->name('product.index');
 Route::get('/products/{id}',[ProductController::class, 'show'])->name('product.show');
-Route::get('/search/{name}',[ProductController::class, 'search'])->name('product.search');
+Route::get('/search/{title}',[ProductController::class, 'search'])->name('product.search');
 
 Route::post('/register',[AuthController::class, 'register'])->name('auth.register');
 Route::post('/login',[AuthController::class, 'login'])->name('auth.login');

@@ -108,11 +108,11 @@ class ProductController extends Controller
      * @param  str  $name
      * @return \Illuminate\Http\Response
      */
-    public function search($name)
+    public function search($title)
     {
 
         //returns product object where the name is similar to name input
-        return Product::where('name' , 'like' , '%'.$name.'%')->get(); //like means similar, % means wildcard concatnation
+        return Product::where('title' , 'like' , '%'.$title.'%')->get(); //like means similar, % means wildcard concatnation
        
     }
 }

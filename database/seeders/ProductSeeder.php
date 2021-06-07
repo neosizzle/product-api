@@ -64,7 +64,36 @@ class ProductSeeder extends Seeder
                 'ratings'=>834,
                 'slug'=>"asdf"
     
+            ],
+            [
+                'title' => 'Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard Red Switch Keyboard with PBT Keycaps for PC Gamer',
+                'description' => 'KEYBOARD FEATURES n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.`,
+               ',
+                'image' => "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg",
+                'images'=> json_encode(" {\"uri\" : [\"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg\",\"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg\",\"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse3.jpg\"]}"),
+                'options'=>json_encode("{\"options\":[\"RGB\" , \"NO RGB\"]}"),
+                'price'=>420,
+                'oldPrice'=>69,
+                'avgRating'=>4.9,
+                'ratings'=>8124,
+                'slug'=>"asdf"
+    
+            ],
+            [
+                'title' => 'Mouse Havit Mechanical Keyboard Wired 89 Keys Gaming Keyboard',
+                'description' => 'KEYBOARD FEATURES HAVIT n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.`,
+               ',
+                'image' => "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg",
+                'images'=> json_encode(" {\"uri\" : [\"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/keyboard1.jpg\",\"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse2.jpg\",\"https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/products/mouse3.jpg\"]}"),
+                'options'=>json_encode("{\"options\":[\"RGB\" , \"NO RGB\"]}"),
+                'price'=>423,
+                'oldPrice'=>623,
+                'avgRating'=>4.9,
+                'ratings'=>83234,
+                'slug'=>"asdsdf"
+    
             ]
+
             ];
 
 
